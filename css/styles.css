@@ -7,58 +7,84 @@ body {
     background-color: rgb(245, 245, 245);
 }
 
-main {
-    text-align: center;
+a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
 }
 
-/* Navigation */
+h2 {
+    margin-bottom: 50px;
+}
 
-.name,
-.main-nav {
+h3 {
+    font-size: 1.8em;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+.name {
     text-align: center;
 }
 
 .main-nav a {
-    display: block;
-}
-
-.main-nav {
-    text-transform: uppercase;
-    list-style: none;
-}
-
-ul li {
-    font-size: 1.5em;
+    font-size: 1.2em;
     font-weight: bold;
-	background: #fff;
-	margin-top: 5px;
+}
+
+.main-nav li {
+    background-color: white;
+    text-align: center;
     margin-bottom: 5px;
-    padding: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
-a:link {
-    text-decoration: none;
+.container {
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
-.t-border {
-    border-top: 2px solid lightgrey; 
+.profile {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.portfolio {
+    background-color:white;
+    text-align: center;
+}
+
+.image {
+    width: 100%;
+    margin: 15px auto;
+}
+
+.project {
+    margin-left: 35px;
+    margin-right: 35px; 
+}
+
+.contact {
+    text-align: center;
+}
+
+.main-footer {
+    border-top: 2px solid lightgrey;
+    font-size: 0.8em;
 }
 
 .footer-name {
     float: left;
 }
 
-.back-to-top {
+.footer-top {
     float: right;
-}
-
-#portfolio {
-    background-color: #fff;
-}
-
-.responsive {
-    width: 100%;
-    height: auto;
-    padding-left: 20px;
-    padding-right: 20px;
 }
